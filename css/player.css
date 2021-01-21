@@ -1,0 +1,115 @@
+
+body{
+    background-color: teal;
+}
+main{
+    width: 360px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+header{
+    text-align: center;
+    color: white;
+    height: 300px;
+}
+header img{
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 140px;
+    width: 140px;
+}
+header p{
+    font-size: 22px;
+
+}
+header h2{
+    margin:14px 0px ;
+}
+#content{
+    margin-top: 200px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background: rgb(124, 211, 196);
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+#buttons img{
+    width: 45px;
+    height: 45px;
+    margin: 0px 15px;
+}
+.animation{
+    animation-name:changeBackground ;
+    animation-iteration-count: 8;
+   
+    
+
+}
+#color{
+    text-align: center;
+    margin-top: 60px;
+}
+#color button{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    outline: none;
+}
+#color1{
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+}
+#color2{
+    background: linear-gradient(to right, #03001e, #7303c0, #ec38bc, #fdeff9);
+}
+#color3{
+    background:  linear-gradient(to right, #41295a, #2f0743);
+
+}
+#color4{
+
+    background:  linear-gradient(to right, #ec008c, #fc6767);
+}
+@keyframes changeBackground{
+    0%{
+
+        
+  background-color:  #7070c8,; 
+    }
+    10%{
+        background-color:  #c26d6d;
+
+    }
+    20%{
+        background-color:  #07c0e0;
+
+    }
+    30%{
+        background-color:  #d475c0;
+
+    }
+    
+    40%{
+
+        background-color: rgb(165, 107, 219) ;
+    }
+    50%{
+
+        background-color:  #c36695;
+    }
+    60%{
+
+        background-color:  #8c63c2;
+    }
+    80%{
+
+        background-color:  #66c88b;
+    }
+    100%{
+        background-color:  #3d0258; 
+
+    }
+}
